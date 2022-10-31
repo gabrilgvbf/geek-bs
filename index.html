@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Geek 3000'</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Russo+One&display=swap" rel="stylesheet">
+
+</head>
+<style>
+
+p.card-text{
+    color:rgb(227, 119, 119);
+font-weight: bold;}
+h4.card-title{
+    color:#ccc;
+
+}
+.card-img-overlay {
+    border:1px solid none ;
+    padding:5px;
+    background-color: rgba(0,0,0,0.5);
+    display: block;
+}
+.nav-pills .nav-link:hover {
+    background-color: red;
+ 
+}
+    .carousel.slide img {
+        height: 400px;
+        width: 100%;
+    }
+
+    .card-img-overlay {
+        text-align: end;
+        margin-right: 300px;
+        margin-top: 300px;
+        max-height: 600px;
+    }
+
+    .titulo-section {
+        border-bottom: 3px solid red;;
+        color:black;
+    }
+
+    @media screen and (min-width:641px) and (max-width:1023px) {
+        .container {
+            max-width: 90%;
+        }
+
+        .col-4 {
+            flex: 0 0 auto;
+            width: 50%;
+        }
+
+
+    }
+
+    @media screen and (max-width:640px) {
+        .container {
+            max-width: 90%;
+        }
+
+        .col-4 {
+            flex: 0 0 auto;
+            width: 100%;
+        }
+
+        .card-img-overlay {
+            display:block;
+        margin-right: 20px;
+    
+    
+        
+    }
+
+
+    }
+
+
+
+</style>
+
+<body>
+    <header id="cabeçalho">
+
+        <div class="navbar navbar-expand-lg" >
+            <div  class="container" >
+                <div style="border:1px solid; display:block;">
+                <h1 style="font-family: 'Russo One', sans-serif;">GEEK</h1>
+                <h1 style="font-family: 'Russo One', sans-serif; color:red;">3000'</h1>
+            </div>
+                <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <nav class="collapse navbar-collapse justify-content-end" id="menu">
+                    <ul class="navbar-nav nav nav-pills">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#"> Mais lidas</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#"> Ciência pop</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#"> De olho na Telona</a>
+                        </li>
+                    </ul>
+                </nav>
+
+    </header>
+
+    <section class="Últimas">
+        <div class="container">
+            <h1 class="titulo-section">Ùltimas</h1>
+        </div>
+
+        <div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active"></button>
+                    <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1"></button>
+                    <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2"></button>
+                    <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="3"></button>
+                    <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="4"></button>
+                    <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="5"></button>
+                </div>
+                <div data-bs-interval="3000" class="carousel-item active">
+                    <img class="d-block" src="https://cdn.pixabay.com/photo/2015/03/11/01/33/hulk-667988_1280.jpg">
+                    <a  class="link-ultimas"href="#futuromarvel" target="_blank"><div class="card-img-overlay">
+                        <h4 class="card-title"> Destino da Marvel </h4>
+                        <p class="card-text">
+                            Veja quais seram os próximos filmes da franquia
+                        </p>
+                    </div>
+                </a>
+                </div>
+                <div data-bs-interval="3000" class="carousel-item ">
+                    <img class="d-block" src="https://cdn.pixabay.com/photo/2019/03/21/02/51/deadpool-4070071_1280.jpg">
+                    <a  class="link-ultimas"href="#" target="_blank"><div class="card-img-overlay">
+                        <h4 class="card-title"> O que é a quarta parede?</h4>
+                        <p class="card-text">
+                            Como esse conceito fez evoluir o cinema
+                        </p>
+                    </div>
+                </a>
+                </div>
+                <div data-bs-interval="3000" class="carousel-item ">
+                    <img class="d-block"
+                        src="https://cdn.pixabay.com/photo/2020/07/10/15/33/harley-quinn-5391062_1280.jpg">
+                        <a  class="link-ultimas"href="#futuromarvel" target="_blank"><div class="card-img-overlay">
+                        <h4 class="card-title">Porte de arma para cosplayers</h4>
+                        <p class="card-text">
+                            Conheça as formas para ter a sua
+                        </p>
+                    </div>
+                </a>
+                </div>
+                <div data-bs-interval="3000" class="carousel-item ">
+                    <img class="d-block" src="https://cdn.pixabay.com/photo/2018/04/26/08/57/batman-3351414_1280.jpg">
+                    <a  class="link-ultimas"href="#futuromarvel" target="_blank"><div class="card-img-overlay">
+                        <h4 class="card-title"> LEGO no cinema novamente</h4>
+                        <p class="card-text">
+                            Qual a receita para o sucesso?
+                        </p>
+                    </div>
+                </a>
+                </div>
+                <div data-bs-interval="3000" class="carousel-item ">
+                    <img class="d-block" src="https://cdn.pixabay.com/photo/2015/02/02/11/09/office-620822_1280.jpg">
+                    <a  class="link-ultimas"href="#futuromarvel" target="_blank"> <div class="card-img-overlay">
+                        <h4 class="card-title"> EBAC melhor do Brasil</h4>
+                        <p class="card-text">
+                            Os cursos que mudaram a hitória do pais
+                        </p>
+                    </div>
+                </a>
+                </div>
+                <div data-bs-interval="3000" class="carousel-item ">
+                    <img class="d-block" src="https://cdn.pixabay.com/photo/2015/01/09/11/08/startup-594090_1280.jpg">
+                    <a  class="link-ultimas"href="#futuromarvel" target="_blank"> <div class="card-img-overlay">
+                        <h4 class="card-title"> O mundo com realidade virtual</h4>
+                        <p class="card-text">
+                            As reuniões estão no futuro
+                        </p>
+                    </div>
+                </a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <main>
+
+        <section class="novidades">
+
+            <div class="container">
+                <header>
+                    <h1 class="titulo-section">Novidades</h1>
+
+                </header>
+                <div class="row">
+                    <div class="col-4">
+                        <div class="card text-bg-dark">
+                            <img src="https://cdn.pixabay.com/photo/2017/10/09/03/57/fantasy-2832370_1280.jpg">
+                            <div class="card-body">
+                                <h4 class="card-title"> A verdade do Tubarão místico tecnológico</h4>
+                                <h5 class="card-subtitle">Tubarão é avistado em zona do interior de Minas Gerais</h5>
+                                <p class="card-text">
+
+                                </p>
+                                <a href="#" class="btn btn-primary">Leia mais</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-4">
+                        <div class="card text-bg-dark">
+                            <img src="https://cdn.pixabay.com/photo/2017/08/07/04/05/chocolate-2599637_1280.jpg">
+                            <div class="card-body">
+                                <h4 class="card-title"> Bolacha ou Biscoito? </h4>
+                                <h5 class="card-subtitle"> Qual o motivo dessa polariazação?</h5>
+                                <p class="card-text">
+
+                                </p>
+                                <a href="#" class="btn btn-primary">Leia mais</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-4">
+                        <div class="card text-bg-dark">
+                            <img src="https://cdn.pixabay.com/photo/2012/01/09/09/48/earth-11593_1280.jpg">
+                            <div class="card-body">
+                                <h4 class="card-title"> Novo Planeta habitavel </h4>
+                                <h5 class="card-subtitle"> Viajando com Uber-Space</h5>
+                                <p class="card-text">
+
+                                </p>
+                                <a href="#" class="btn btn-primary">Leia mais</a>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+        </section>
+    </main>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
